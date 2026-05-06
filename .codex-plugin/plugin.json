@@ -1,0 +1,43 @@
+{
+  "name": "haskell-plugin",
+  "version": "0.1.0",
+  "description": "Haskell development skills and hooks for Codex.",
+  "author": {
+    "name": "birdgg",
+    "url": "https://github.com/birdgg"
+  },
+  "homepage": "https://github.com/birdgg/haskell-plugin",
+  "repository": "https://github.com/birdgg/haskell-plugin",
+  "license": "MIT",
+  "keywords": [
+    "haskell",
+    "servant",
+    "effectful",
+    "relude",
+    "hlint",
+    "functional-programming",
+    "type-safety"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Haskell Plugin",
+    "shortDescription": "Haskell skills and HLint checks for Codex",
+    "longDescription": "Haskell Plugin gives Codex reusable guidance for idiomatic Haskell, Servant APIs and clients, Effectful, Relude, build/test workflows, code review, and optional HLint checks after Haskell edits.",
+    "developerName": "birdgg",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/birdgg/haskell-plugin",
+    "defaultPrompt": [
+      "Review my Haskell module for safety",
+      "Fix Haskell build errors",
+      "Design a Servant API with NamedRoutes"
+    ],
+    "brandColor": "#5E5086",
+    "screenshots": []
+  }
+}
